@@ -1,0 +1,113 @@
+/* Global rules */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* seconde rules */
+.parent {
+  margin: -20px 0 -20px;
+  background-color: #f0f2f5;
+  /* color: #1c1e21; */
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+  height: 700px;
+}
+
+.fbimage {
+  width: 300px;
+  margin-left: 150px;
+  margin-top: 13px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-weight: normal;
+  width: 400px;
+  margin-left: 125px;
+  margin-top: -10px;
+}
+label {
+  display: block;
+  margin: 10px 0px 10px;
+}
+form {
+  border: solid 2px #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 25px 0 #dbdde0;
+  background-color: white;
+  width: 390px;
+  text-align: center;
+  margin: 40px 100px;
+  padding: 5px 7px ;
+}
+input {
+  padding: 17px;
+  margin: 0px 0 5px;
+  border: 1px #dddfe2 solid;
+  border-radius: 7px;
+  width: 365px;
+}
+
+input:hover{
+  border-color: #1877f2;
+}
+  
+.login{
+  padding: 11px;
+  border: 1px #dddfe2 solid;
+  border-radius: 7px;
+  width: 365px;
+  color: white;
+  font-size: 22px ;
+  font-weight: bold;
+  background-color: #1877f2;
+}
+
+.Create{
+  padding: 17px;
+  margin: 0px 0 5px;
+  border: 1px #dddfe2 solid;
+  border-radius: 7px;
+  width: 365px;
+  width: 205px;
+  background-color: #42b72a;
+  color: white;
+  font-size: 15px ;
+  font-weight: bold;
+}
+::placeholder {
+  font-size: medium;
+  color: #90949c;
+}
+
+a{
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 14px;
+  /* margin-bottom: 18px; */
+}
+hr{
+  margin: 20px 0 ;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+span {
+  font-weight: bold;
+}
+
+p{
+  text-align: center;
+  font-size: 14px;
+}
+p::first-letter{
+  text-transform: capitalize;
+}
